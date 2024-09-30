@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": "U001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "orders": [
+        {
+          "orderId": "ORD001",
+          "dateOrdered": "2024-09-25",
+          "status": "Delivered",
+          "items": [
+            {
+              "productId": "P001",
+              "productName": "Ray-Ban Aviator Sunglasses",
+              "quantity": 1
+            }
+          ],
+          "shipments": [
+            {
+              "trackingId": "FEDEX123456",
+              "courier": "FedEx",
+              "status": "Delivered",
+              "estimatedDelivery": "2024-09-28",
+              "actualDelivery": "2024-09-27",
+              "trackingHistory": [
+                {
+                  "date": "2024-09-26",
+                  "status": "In transit",
+                  "location": "Memphis, TN"
+                },
+                {
+                  "date": "2024-09-27",
+                  "status": "Delivered",
+                  "location": "New York, NY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U002",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "orders": [
+        {
+          "orderId": "ORD002",
+          "dateOrdered": "2024-09-28",
+          "status": "Processing",
+          "items": [
+            {
+              "productId": "P002",
+              "productName": "Monthly Disposable Contact Lenses",
+              "quantity": 2
+            },
+            {
+              "productId": "P003",
+              "productName": "Contact Lens Solution",
+              "quantity": 1
+            }
+          ],
+          "shipments": []
+        }
+      ]
+    },
+    {
+      "id": "U003",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "orders": [
+        {
+          "orderId": "ORD003",
+          "dateOrdered": "2024-09-27",
+          "status": "In Transit",
+          "items": [
+            {
+              "productId": "P004",
+              "productName": "Prescription Eyeglasses - Titanium Frame",
+              "quantity": 1
+            }
+          ],
+          "shipments": [
+            {
+              "trackingId": "UPS987654",
+              "courier": "UPS",
+              "status": "In Transit",
+              "estimatedDelivery": "2024-10-01",
+              "trackingHistory": [
+                {
+                  "date": "2024-09-28",
+                  "status": "Picked up",
+                  "location": "San Francisco, CA"
+                },
+                {
+                  "date": "2024-09-29",
+                  "status": "In transit",
+                  "location": "Chicago, IL"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U004",
+      "name": "Alice Brown",
+      "email": "alice.brown@example.com",
+      "orders": [
+        {
+          "orderId": "ORD004",
+          "dateOrdered": "2024-09-26",
+          "status": "Delayed",
+          "items": [
+            {
+              "productId": "P005",
+              "productName": "Designer Sunglasses - Oversized",
+              "quantity": 1
+            },
+            {
+              "productId": "P006",
+              "productName": "Microfiber Cleaning Cloth",
+              "quantity": 2
+            }
+          ],
+          "shipments": [
+            {
+              "trackingId": "DHL246810",
+              "courier": "DHL",
+              "status": "Delayed",
+              "estimatedDelivery": "2024-09-30",
+              "trackingHistory": [
+                {
+                  "date": "2024-09-27",
+                  "status": "Picked up",
+                  "location": "Milan, Italy"
+                },
+                {
+                  "date": "2024-09-28",
+                  "status": "Delayed",
+                  "location": "Frankfurt, Germany"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "U005",
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson@example.com",
+      "orders": [
+        {
+          "orderId": "ORD005",
+          "dateOrdered": "2024-09-24",
+          "status": "Cancelled",
+          "items": [
+            {
+              "productId": "P007",
+              "productName": "Blue Light Blocking Glasses",
+              "quantity": 1
+            }
+          ],
+          "shipments": []
+        }
+      ]
+    }
+  ]
+}
